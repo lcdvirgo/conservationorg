@@ -119,7 +119,7 @@ $(document).ready(function() {
      {
 
     
-        if ($(window).scrollTop()>= $starter){
+        if ($(window).scrollTop()>= $starter * 3){
            $('#mainHeader').slideDown();
        } else if ($(window).scrollTop()==0){
            $('#mainHeader').slideUp();

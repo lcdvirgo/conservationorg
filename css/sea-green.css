@@ -80,7 +80,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image: url('../images/theme-pics/paralax-4.jpg');
 }
 #paralaxSlice5 {
-	background-image:  url('../images/theme-pics/bg2.jpg');
+	background-image:  url('../images/theme-pics/palm2.jpg');
 }
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i{
 	color:#fff;
@@ -97,7 +97,15 @@ a {
 }
 a:hover, .scrollspyNav .active a {
 	color:#43B6B1;
+	display: flex;
+	align-items: center;
 }
+
+.navbar-default .navbar-nav>li>a {
+	display: flex;
+	align-items: center;
+}
+
 ul.iconsList li a {
 	color:#555
 }
